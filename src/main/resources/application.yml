@@ -1,0 +1,9 @@
+server:
+    port: 7089
+
+cloud:
+    aws:
+        region:
+            static: ap-southeast-1
+        stack:
+            auto: false # disable AWS Cloudformation config gathering
